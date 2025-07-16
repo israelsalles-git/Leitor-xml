@@ -41,21 +41,26 @@ Clone o repositório:
 bash
 git clone https://github.com/seu-usuario/xml-monitor.git
 cd xml-monitor
+
 Crie e ative um ambiente virtual (recomendado):
 
 bash
+
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate  # Windows
+
 Instale as dependências:
 
 bash
+
 pip install -r requirements.txt
 Uso
 Execute o aplicativo com:
 
 bash
 python xml_monitor.py
+
 Na interface:
 
 Selecione a pasta para monitorar (contendo os XMLs)
@@ -65,6 +70,7 @@ Defina o arquivo Excel de saída
 Clique em "Iniciar Monitoramento" para começar
 
 Configurações
+
 Monitoramento automático: A aplicação detecta novos arquivos XML adicionados à pasta
 
 Processamento manual: Botão para processar todos os XMLs existentes na pasta
