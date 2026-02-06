@@ -1,48 +1,39 @@
 # Monitor de XML para Excel - Controle de Notas Fiscais
 Aplicação para monitorar uma pasta com arquivos XML de notas fiscais, extrair informações relevantes e gerar um relatório consolidado em Excel, com controle de notas duplicadas.
 
-Funcionalidades
+# Funcionalidades
 Monitoramento automático de pasta em busca de novos arquivos XML
 
 Extração dos seguintes dados das notas fiscais:
 
 Número da nota fiscal
 
-Data de emissão
+.Data de emissão
+.Nome do cliente
+.Valor total da nota
+.Controle de notas repetidas (atualiza dados existentes)
+.Geração de relatório em Excel consolidado
+.Interface gráfica amigável com CustomTkinter
 
-Nome do cliente
-
-Valor total da nota
-
-Controle de notas repetidas (atualiza dados existentes)
-
-Geração de relatório em Excel consolidado
-
-Interface gráfica amigável com CustomTkinter
-
-Requisitos
+# Requisitos
 Python 3.8+
 
-Bibliotecas necessárias (instaladas automaticamente com requirements.txt):
+# Bibliotecas necessárias (instaladas automaticamente com requirements.txt):
 
 customtkinter
-
 pandas
-
 watchdog
-
 openpyxl
-
 lxml
 
-Instalação
+# Instalação
 Clone o repositório:
 
 bash
 git clone https://github.com/seu-usuario/xml-monitor.git
 cd xml-monitor
 
-Crie e ative um ambiente virtual (recomendado):
+# Crie e ative um ambiente virtual (recomendado):
 
 bash
 
@@ -50,7 +41,7 @@ python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate  # Windows
 
-Instale as dependências:
+# Instale as dependências:
 
 bash
 
@@ -61,23 +52,19 @@ Execute o aplicativo com:
 bash
 python xml_monitor.py
 
-Na interface:
+# Na interface:
 
 Selecione a pasta para monitorar (contendo os XMLs)
-
 Defina o arquivo Excel de saída
-
 Clique em "Iniciar Monitoramento" para começar
 
-Configurações
+# Configurações
 
 Monitoramento automático: A aplicação detecta novos arquivos XML adicionados à pasta
-
 Processamento manual: Botão para processar todos os XMLs existentes na pasta
-
 Atualização de notas: Se uma nota já existir no relatório, seus dados serão atualizados
 
-Estrutura do Projeto
+# Estrutura do Projeto
 text
 xml-monitor/
 ├── xml_monitor.py        # Código principal da aplicação
