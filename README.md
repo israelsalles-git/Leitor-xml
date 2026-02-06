@@ -85,7 +85,7 @@ Push para a branch (git push origin feature/incrivel)
 Abra um Pull Request
 
 Licença
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+Livre para melhorias !!
 
 Contato
 Israel salles de oliveira - sallesisrael66@gmail.com
